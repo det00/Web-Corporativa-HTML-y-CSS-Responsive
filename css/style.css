@@ -1,0 +1,184 @@
+/* Estilos para resoluciones mayores a 1300px */
+@media screen and (min-width: 1300px) {}
+
+/* Estilos para tablets en posición vertical */
+@media screen and (min-width: 768px) and (max-width: 992px) {}
+
+/* Estilos para tablets en posición horizontal */
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Estilos para teléfonos en posición vertical */
+@media screen and (max-width: 576px) {}
+
+/* Estilos para teléfonos en posición horizontal 576px-768px */
+@media screen and (min-width: 576px) and (max-width: 768px) {}
+
+@font-face {
+    font-family: cascadia;
+    src: url(../font/code/CascadiaCode-Regular.otf);
+}
+
+@font-face {
+    font-family: josefin;
+    src: url(../font/josefin/JosefinSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: koho;
+    src: url(../font/koho/KoHo-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Agrega una imagen de fondo al cuerpo */
+body {
+    background-image: url(../img/abstract\ background\ 2403.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.nav li {
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    background: #98949443;
+    border-radius: 10px;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+    /*color al seleccionar*/
+}
+
+/* Estilo para los submenús */
+.nav li ul {
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: -40px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.nav li:hover ul {
+    /*menu*/
+    display: block;
+    text-decoration: underline;
+}
+
+.nav li ul li a {
+    padding: 8px 20px;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.nav li ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para la cabecera de la empresa */
+.head {
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+    margin: 0px 100px;
+    font-family: koho;
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+    margin: 10px 30px 0px 30px;
+}
+
+.title img {
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 20px
+}
+
+.title h1 {
+    display: inline-flex;
+    vertical-align: 200px;
+    font-family: josefin;
+    color: #4e4e4e;
+    margin-right: 220px;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 80px;
+    font-family: koho;
+}
+
+.cuerpo h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cuerpo h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cuerpo p {
+    margin-left: 40px;
+}
+
+/* Estilos para el section y aside */
+section,
+aside {
+    width: 800px;
+    height: 500px;
+    margin: 40px;
+    padding: 20px;
+    background: #312b251e;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Estilos para el footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
