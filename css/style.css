@@ -182,3 +182,71 @@ footer {
     color: #fff;
     padding: 20px;
 }
+/*estilo para la pagina contacto*/
+.cuerpo_contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1%;
+    flex-direction: column;
+    margin-top: 19%;
+}
+
+.sec_contacto {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 1%; 
+    padding-top: 1%;
+}
+
+.form-group {
+    margin-bottom: 1%;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input [type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #808080;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #A9A9A9;
+}
+
+div section h2 {
+    text-align: center;
+}
+
+.sec_contacto:last-child {
+    margin-bottom: 26%;
+}
+
+
