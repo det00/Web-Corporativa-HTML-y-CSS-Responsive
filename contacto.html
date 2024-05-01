@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="img/logo.png" alt="">
+            <h1>Nombre de la Empresa</h1>
+        </div>
+
+        <div class="head">
+            <ul class="nav">
+                <li><a href="index.html">Home</a>
+                    <ul>
+                        <li><a href="QuienesSomos.html">Quienes somos</a></li>
+                        <li><a href="AreaDeActuacion.html">Área de actuación</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li><a href="noticias.html">Noticias</a>
+                </li>
+                <li><a href="https://www.google.com/maps" target="_blank">Localizacion</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="sec_contacto_datos">
+        <div class="contenedor-datos-personales">
+            <h2>Datos Personales</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_contacto_direccion">
+        <div class="contenedor-direccion">
+            <h2>Dirección</h2>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+
+                <label for="localidad">Localidad:</label>
+                <input type="text" id="localidad" name="localidad">
+            </div>
+            <div class="form-group">
+                <label for="codigo_postal">C.P.:</label>
+                <input type="text" id="codigo_postal" name="codigo_postal">
+
+                <label for="provincia">Provincia:</label>
+                <input type="text" name="provincia" id="Provincia">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_contacto_adjuntos">
+        <div class="contenedor-enviar-archivos">
+            <h2>Enviar Archivos</h2>
+            <div class="form-group">
+                <label for="archivos">Archivos: </label>
+                <input type="file" id="archivos" name="archivos" multiple>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_contacto_enviar">
+        <div class="contenedor-enviar">
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </div>
+    </section>
+
+    </div>
+    <footer>
+
+        <p>&copy; 2024 Empresa Ficticia. Todos los derechos reservados.</p>
+
+    </footer>
+</body>
+
+</html>
